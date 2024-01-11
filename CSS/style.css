@@ -12,6 +12,16 @@ p {
     font-size: 18px;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+}
+
+
 h1,
 h2 {
     font-family: Cinzel, serif;
@@ -319,5 +329,5 @@ footer a:hover {
 }
 
 .top-nav a:hover {
-    color: rgb(231, 181, 237);
+    color: rgb(231, 181, 237);
 }
