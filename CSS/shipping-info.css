@@ -10,21 +10,35 @@
 
 /********** Table **********/
 table {
+    font-family:'Courier New', Courier, monospace;
     text-align: center;
     width: 100%;
     border-collapse: collapse;
-    text-transform: uppercase;
     letter-spacing: 0.03em;
+}
+
+
+table tr td:first-child,
+table tr th:first-child {
+    font-weight: bold; /* Example font-weight */
+    color: rgb(0, 0, 0);
+    border-right-style: double;
 }
 
 .shipping-table-head {
     border-bottom-style: double;
 }
 
+table tr:nth-child(even) td{
+    background-color: rgb(247, 240, 248);
+}
+
 table,
 td,
 th {
     border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+
 }
 
 td,
@@ -36,4 +50,12 @@ th {
 .shipping-page-text a {
     color: black;
     text-decoration: underline;
+}
+
+#aramax {
+    color: rgb(33, 33, 148);
+}
+
+.aramax:hover {
+  color:brown;
 }
