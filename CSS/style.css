@@ -1,23 +1,15 @@
-/********** Overall styling **********/
+/**** Overall styling ****/
 /* .container {
     padding: 30px 80px 80px;
     margin: 0px;
-    min-width: 100%;
+    max-width: 100%;
     min-height: 100vh;
     text-align: center;
     background-image: linear-gradient(to bottom, rgb(182, 216, 179), rgb(248, 255, 247));
-}
+} */
 
-p {
-    font-size: 18px;
-}
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
-header {
+/* header {
     position: relative;
 } */
 
@@ -42,22 +34,6 @@ h2 {
     text-align: center;
 }
 
-/********** Nav **********/
-.banner {
-    background: rgb(52, 58, 64);
-    color: white;
-    padding: 7px 0px;
-    display: flex;
-}
-
-marquee {
-    font-size: 15px;
-}
-
-marquee span {
-    font-weight: 700;
-    padding: 0 7px;
-}
 
 nav {
     margin: 0;
@@ -67,65 +43,8 @@ nav {
     z-index: 1;
 }
 
-.navbar-brand {
-    font-size: 23px;
-    color: white;
-}
 
-.navbar-nav {
-    font-size: 19px;
-}
-
-
-/* LEVEL ONE */
-ul.dropdown {
-    position: relative;
-}
-
-
-ul.dropdown li a {
-    display: block;
-}
-
-ul.dropdown li.hover,
-ul.dropdown li:hover {
-    position: relative;
-}
-
-
-/* LEVEL TWO  */
-ul.dropdown ul {
-    width: 200px;
-    visibility: hidden;
-    position: absolute;
-    top: 100%;
-    background: rgb(52, 58, 64);
-    padding: 8px 8px 10px 10px;
-    margin-left: 8px;
-}
-
-ul.dropdown ul li {
-    font-weight: normal;
-    background: rgb(52, 58, 64);
-    float: none;
-    list-style-type: none;
-}
-
-ul.dropdown ul li a {
-    border-right: none;
-    width: 100%;
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    font-size: 17px;
-}
-
-ul.dropdown ul li a:hover {
-    color: rgba(255, 255, 255, .55);
-}
-
-
-/********** Image header and text **********/
+/**** Image header and text ****/
 .header-image {
     background-image: url("/Images/header-image.jpg");
     background-position: center;
@@ -143,7 +62,7 @@ ul.dropdown ul li a:hover {
     color: rgb(255, 252, 252);
 }
 
-/********** Product cards **********/
+/**** Product cards ****/
 .card:hover {
     transform: scale(1.05);
 }
@@ -159,12 +78,12 @@ ul.dropdown ul li a:hover {
     border-radius: 25px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: currentColor;
-    width: 55%;
-    margin: 17px;
+    width: 30%;
+    margin: 20px;
 }
 
 
-/********** Footer **********/
+/**** Footer ****/
 footer {
     padding-top: 50px;
 }
@@ -192,7 +111,7 @@ footer a:hover {
 
 
 /* CSS */
-.button-17 {
+.button-send {
     align-items: center;
     appearance: none;
     background-image: linear-gradient(to bottom,  rgb(215, 228, 214));
@@ -229,43 +148,40 @@ footer a:hover {
     margin-bottom: 12px;
   }
   
-  .button-17:hover {
+  .button-send:hover {
     background: #F6F9FE;
     color: #174ea6;
   }
   
-  .button-17:active {
+  .button-send:active {
     box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
     outline: none;
   }
   
-  .button-17:focus {
+  .button-send:focus {
     outline: none;
     border: 2px solid #4285f4;
   }
   
-  .button-17:not(:disabled) {
+  .button-send:not(:disabled) {
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
   }
   
-  .button-17:not(:disabled):hover {
+  .button-send:not(:disabled):hover {
     box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
   }
   
-  .button-17:not(:disabled):focus {
+  .button-send:not(:disabled):focus {
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
   }
   
-  .button-17:not(:disabled):active {
+  .button-send:not(:disabled):active {
     box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
   }
   
-  .button-17:disabled {
+  .button-send:disabled {
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
   }
-
-
-/*col and row of the items, products*/
   
 
 .col{
@@ -281,7 +197,6 @@ footer a:hover {
     margin: 0px; /* Center the container horizontally */
     width:fit-content;
 }
-
 
 
 *{
@@ -305,6 +220,8 @@ footer a:hover {
     /* display: flex; */
     margin-left: 10px;
 }
+
+
 
 .top-nav li {
     display: inline-block;
@@ -334,17 +251,3 @@ footer a:hover {
 .top-nav a:hover {
     color: rgb(231, 181, 237);
 }
-
-
-/* row and col of each department*/
-
-.row {
-    display: flex;
-    flex-wrap: wrap; 
-     
-  }
-  
-  .col {
-    flex: 0 0 calc(33.33% - 20px); 
-    margin: 10px; 
-  }
