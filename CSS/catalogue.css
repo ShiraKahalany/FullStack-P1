@@ -5,28 +5,16 @@
 
 /********** Product cards **********/
 .thumbnail-image img {
-    width: 100% ;
+    width: 100%;
     height: auto;
 }
+
 .price {
     font-size: 21px;
     font-weight: 500;
 }
 
-.col{
-    width: 20%;
-    
-    align-items: center;
-    margin: 20px; /* Center the container horizontally */
-}
 
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center horizontally */
-    margin: 0 auto; /* Center the container horizontally */
-    width:fit-content;
-}
 
 
 
