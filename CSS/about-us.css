@@ -4,9 +4,15 @@
 }
 
 /********** Sections **********/
-.row {
+.row2 {
     padding: 50px 0;
     color: black;
+}
+
+.par-text p{
+    font-size: 1.2em; /* Adjust the font size as needed */
+    line-height: 2.6; /* Optionally adjust the line height for better readability */
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /********** First section **********/

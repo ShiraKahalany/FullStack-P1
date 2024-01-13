@@ -41,14 +41,15 @@
 
 
 card-title {
-    font-size: 1.5em; /* Adjust the font size as needed */
-    font-weight: bold; /* Optionally make it bold */
-    margin-bottom: 10px; /* Add some spacing between title and paragraph */
-}
+            font-size: 1.5em; /* Adjust the font size as needed */
+            font-weight: bold; /* Optionally make it bold */
+            margin-bottom: 10px; /* Add some spacing between title and paragraph */
+        }
 
-/* Add styles for the paragraph text */
-.card-text p {
-    font-size: 1em; /* Adjust the font size as needed */
-    line-height: 1.4; /* Optionally adjust the line height for better readability */
-}
+        /* Add styles for the paragraph text */
+        .card-text p {
+            font-size: 1em; /* Adjust the font size as needed */
+            line-height: 1.4; /* Optionally adjust the line height for better readability */
+            font-family:Arial, Helvetica, sans-serif;
+        }
 
