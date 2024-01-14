@@ -21,7 +21,7 @@
         <ul class="menu">
             <li><a href="/HOME.html">Home</a></li>
             <li><a href="/catalogue.html">Catalog</a></li>
-            <li><a href="/shipping-info.html">Shipping And Orders</a></li>
+            <li><a href="/shipping-info.html">Shipping & Orders</a></li>
             <li><a href="/about-us.html">About Us</a></li>
         </ul>
         <img src="/Images/logo2.png" class="logo"/>
@@ -41,6 +41,7 @@
                 <p>
                     At <b>Golden Home</b> we believe that the joy of receiving a carefully curated package should be as delightful as the products inside. <br>Thank you for choosing us to be part of your shopping experience!
                 </p>
+                <img class="butterfly" src="Images/butter.png"/>
                 <p>
                     Our dedicated team is committed to ensuring that your items are carefully processed and dispatched within a minimum time.
                     <br>Estimated shipping times and shipping price vary depending on your location, you can see it in the following table:
@@ -86,19 +87,98 @@
                     </tr>
                 </table>
                 <br>
-                <p>
-                    For more information on shipping, visit <a href="https://www.aramex.com/za/en" class="aramax" id="aramax">Aramax</a>.
+                <p class="armax-line">
+                    * For more information on shipping, visit <a href="https://www.aramex.com/za/en" class="aramax" id="aramax">Aramax</a> *
                 </p>
-                <p>
-                    You can pick up from our branch in Tel Aviv free of charge:
-                    <br>Sunday to Thursday between the hours: 19:00 - 9:00
-                    <br>At: 52 Dizengoff Street, Tel Aviv.
-                </p>
-                <p>
-                    <h1>Waiting for you! </h1>           
-                </p>
+
             </div>
         </div>
+
+        <img class="butterfly" src="Images/butter.png"/>
+        <div class="form">
+            <p class="make-order">Make a Reservation:</p>
+            <form action="" method="get">
+                <ul>
+                    <li>
+                        <label for="firstName">First Name:</label>
+                        <input id="firstName" size="20" style="width: 100px; "/>
+                        <label for="lastName">Last Name:</label>
+                        <input id="lastName" style="width: 100px;"/>
+                        <label for="phone">Phone:</label>
+                        <input id="phone" type="number" style="width: 130px;"/>
+                        <label for="email">Email:</label>
+                        <input id="email" />
+                    </li>
+                    <li>
+                        <label for="product">The requested product:</label>
+                        <input id="product" style="width: 270px;"/>
+                        <label for="amount">Amount:</label>
+                        <input id="amount" type="number" style="width: 30px;"/>
+                        <label for="gift">Wrap for a gift?</label>
+                        <input id="gift" type="checkbox"/>
+                    </li>
+                    <li>
+                        <label for="address">Shipping address:</label>
+                        <input id="address" style="width: 220px;"/>
+                    </li>
+                </ul>
+                <ul class="pay">
+                    <li>
+                        <label class="payDetails">Payment details</label>
+                    </li>
+                    <li>
+                        <label for="cardNum">Credit card number:</label>
+                        <input id="cardNum" type="number" style="width: 150px;"/>
+                        <label for="id">ID (of the card owner):</label>
+                        <input id="id" type="number" maxlength="9" style="width: 150px;"/>
+                    </li>
+                    <li>
+                        <label for="validity">Card validity:</label>
+                        <select id="validity" name="month">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select id="validity" name="year">
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                            <option value="2031">2031</option>
+                            <option value="2032">2032</option>
+                            <option value="2033">2033</option>
+                        </select>
+                        <label for="cvv">CVV</label>
+                        <input id="cvv" type="number" maxlength="3" style="width: 40px;"/>
+                    </li>
+                </ul>
+                <input type="submit" value="Approve Order" class="button-send"/>
+            </form>
+        </div>
+        <img class="butterfly" src="Images/butter.png"/>
+
+        <p>
+            You can pick up from our branch in Tel Aviv free of charge:
+            <br>Sunday to Thursday between the hours:<b> 9:00 - 19:00</b>
+            <br>At: <b>52 Dizengoff Street, Tel Aviv</b>.
+            <span style="font-family:'Brush Script MT'; color:rgb(98, 19, 172); font-size: larger;">Waiting for you!</span>
+        </p>
+        <embed class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.7621759331773!2d34.77767702485802!3d32.07568061949768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4b8089bfbd33%3A0xdc8188c66cd5c3e5!2z15PXmdeW16DXkteV16MgNTIsINeq15wg15DXkdeZ15Et15nXpNeV!5e0!3m2!1siw!2sil!4v1705271207542!5m2!1siw!2sil" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></embed>
+        
+
+
 
         <hr>
         <footer>

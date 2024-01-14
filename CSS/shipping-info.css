@@ -3,6 +3,16 @@
     padding: 30px 90px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
 /********** Header **********/
 .header-image {
     height: 150px;
@@ -46,6 +56,13 @@ th {
     padding: 10px;
 }
 
+.armax-line{
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    text-align: left;
+    margin-top: 0px;
+}
+
 /********** Link **********/
 .shipping-page-text a {
     color: black;
@@ -59,3 +76,63 @@ th {
 .aramax:hover {
   color:brown;
 }
+
+.make-order {
+    text-align: left;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.form {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    border: 2px dashed rgb(5, 0, 10);
+    border-radius: 15px;
+    margin: 15px 0px 15px 0px;
+}
+
+form li {
+    list-style: none;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+form{
+    display: flex;
+    flex-direction: column; /* Arrange items in a column (one below the other) */
+    align-items: flex-start; /* Align items to the start of the column */
+}
+
+.pay {
+    padding: 10px 10px 0px 40px;
+    background-color: beige;
+    width:100%;
+}
+
+.approve{
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.payDetails {
+    font-weight: bold;
+    font-family: Century Gothic;
+}
+
+input{
+    margin-right: 40px;
+    display: inline-block;
+}
+
+form label{
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.map{
+    max-width: 300px;
+    max-height: 250px;
+}
+
