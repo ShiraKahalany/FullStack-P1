@@ -36,3 +36,13 @@
     float: right;
     filter: sepia(30%);
 }
+
+video{
+    width: fit-content;
+}
+
+iframe{
+    width:560;
+    height:315;
+    margin-left: 0px; /* Adjust the value as needed */
+}
