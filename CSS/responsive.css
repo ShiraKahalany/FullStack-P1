@@ -1,0 +1,16 @@
+#iframi-iframe {
+    display: flex;
+}
+
+ul li a[href^="tel:"] {
+    white-space: pre-line; /* Allow line breaks for phone numbers */
+}
+
+
+@media screen and (max-width: 500px){
+    div.mobile-collapse{
+        width: auto;
+        float: none;
+        margin-right: 0;
+    }
+}
