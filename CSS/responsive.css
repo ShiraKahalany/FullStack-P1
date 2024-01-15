@@ -1,16 +1,25 @@
-#iframi-iframe {
-    display: flex;
-}
 
-ul li a[href^="tel:"] {
-    white-space: pre-line; /* Allow line breaks for phone numbers */
-}
-
-
-@media screen and (max-width: 500px){
-    div.mobile-collapse{
-        width: auto;
-        float: none;
-        margin-right: 0;
+@media screen and (max-width: 900px){ 
+    .card {
+        width: 40%; /* Adjust the width for smaller screens */
     }
+
+    .row {
+        flex-wrap: wrap;
+        align-items: center;
+    } 
+
+}
+
+
+@media screen and (max-width: 500px){ 
+    .card {
+        width: 75%; /* Adjust the width for smaller screens */
+    }
+
+    .row {
+        flex-wrap: wrap;
+        align-items: center;
+    } 
+
 }

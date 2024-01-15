@@ -42,19 +42,13 @@ video{
     height: 540px;
 }
 
-#iframi-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 80px 100px 80px 30px; /* Adjust the value as needed */
-}
 
-#iframi-text {
-    width: 40%; /* Take up the full width of the container */
-    display: flex;
-}
-
-#iframi-iframe {
+.iframi {
     width: 350px;
     height: 200px;
+    margin-top: 10%;
 }
+
+/* iframe{
+    width:40%;
+} */
