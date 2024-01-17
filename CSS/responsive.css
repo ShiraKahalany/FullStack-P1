@@ -50,9 +50,19 @@
         flex-direction: column-reverse;
     }
     nav.top-nav ul {
-        text-align: center;
+        text-align: center;
     }
 
 
+    embed.header-embed {
+        height: 4.8em;
+    }
+
+    nav.top-nav {
+        flex-direction: column-reverse;
+    }
+    nav.top-nav ul {
+        text-align: center;
+    }
 
 }

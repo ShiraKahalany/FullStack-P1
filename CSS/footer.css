@@ -1,0 +1,43 @@
+/*** Footer style ***/
+body {
+    margin: 0;
+}
+
+#foot {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top: 4%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerText{
+    font-size: 0.8em;
+}
+
+
+footer a {
+    color: black;
+    font-weight: 700;
+}
+
+footer a:hover {
+    color: rgb(142, 76, 9);
+}
+
+.footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+footer p{
+    line-height: 1;
+}
+
+footer div{
+    align-items: center;
+    width:100%;
+}

@@ -1,4 +1,4 @@
-/********** Overall styling **********/
+/********** Shipping style **********/
 .shipping-page-text {
     padding: 5% 5%;
 }
@@ -60,6 +60,7 @@ th {
     margin-top: 0px;
 }
 
+
 /********** Link **********/
 .shipping-page-text a {
     color: black;
@@ -102,20 +103,6 @@ th {
     border-radius: 15px;
     margin: 8% 5%;
 }
-/* @media screen and (max-width: 760px) {
-    .formColumns {
-        display: flex;
-        flex-flow: row wrap;
-    }
-
-    .cardDetails li {
-        flex-flow: row wrap;
-    }
-
-    .payDetails {
-        margin-top: 2%;
-    }
-} */
 
 .formColumns{
     display: flex;
