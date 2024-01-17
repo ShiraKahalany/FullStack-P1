@@ -1,6 +1,6 @@
 /********** Header **********/
 .header-image {
-    height: 150px;
+    height: 9em;
 }
 
 /********** Product cards **********/
@@ -10,7 +10,7 @@
 }
 
 .price {
-    font-size: 21px;
+    font-size: 0.9em;
     font-weight: 500;
 }
 

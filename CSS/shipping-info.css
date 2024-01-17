@@ -1,6 +1,6 @@
 /********** Overall styling **********/
 .shipping-page-text {
-    padding: 30px 90px;
+    padding: 5% 5%;
 }
 
 input::-webkit-outer-spin-button,
@@ -15,7 +15,7 @@ input[type="number"] {
 
 /********** Header **********/
 .header-image {
-    height: 150px;
+    height: 9em;
 }
 
 /********** Table **********/
@@ -26,8 +26,6 @@ table {
     border-collapse: collapse;
     letter-spacing: 0.03em;
 }
-
-
 table tr td:first-child,
 table tr th:first-child {
     font-weight: bold; /* Example font-weight */
@@ -50,7 +48,6 @@ th {
     background-color: rgb(255, 255, 255);
 
 }
-
 td,
 th {
     padding: 10px;
@@ -58,7 +55,7 @@ th {
 
 .armax-line{
     font-family:'Courier New', Courier, monospace;
-    font-size: large;
+    font-size: 0.8em;
     text-align: left;
     margin-top: 0px;
 }
@@ -78,32 +75,78 @@ th {
 }
 
 .make-order {
-    text-align: left;
-    margin-left: 10px;
-    font-size: large;
+    text-align: center;
+    font-size: 1.3em;
     font-weight: bold;
+    color: rgb(234, 217, 198);
 }
 
-.form {
+.cardDetails{
+    padding: 3% 0%;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    background-color: rgb(246, 239, 231);
+}
+
+
+.customerDetails{
+    padding-right: 2%;
+}
+
+.formDiv {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(255, 255, 255);
-    padding: 10px 10px;
+    padding: 1.8% 1.8%;
     border: 2px dashed rgb(5, 0, 10);
     border-radius: 15px;
-    margin: 15px 0px 15px 0px;
+    margin: 8% 5%;
+}
+/* @media screen and (max-width: 760px) {
+    .formColumns {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .cardDetails li {
+        flex-flow: row wrap;
+    }
+
+    .payDetails {
+        margin-top: 2%;
+    }
+} */
+
+.formColumns{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none; 
+    padding: 0; 
 }
 
-form li {
+.formColumns li{
+    flex:1;
+}
+
+.customerDetails li {
     list-style: none;
-    margin-bottom: 25px;
+    margin-bottom: 7%;
+    text-align: left;
+}
+
+.cardDetails li {
+    list-style: none;
+    margin-bottom: 7%;
     text-align: left;
 }
 
 form{
-    display: flex;
-    flex-direction: column; /* Arrange items in a column (one below the other) */
-    align-items: flex-start; /* Align items to the start of the column */
+    align-items: center;
+    font-size: 0.8em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .pay {
     padding: 10px 10px 0px 40px;
@@ -115,24 +158,22 @@ form{
     margin-bottom: 0px;
     width: 100%;
 }
-
 .payDetails {
     font-weight: bold;
     font-family: Century Gothic;
 }
 
 input{
-    margin-right: 40px;
+    margin-right: 5%;
     display: inline-block;
 }
 
 form label{
-    margin-right: 2px;
+    margin-right: 2%;
     display: inline-block;
 }
 
 .map{
-    max-width: 300px;
-    max-height: 250px;
+    width: 40%;
+    height: 100%;
 }
-

@@ -95,45 +95,63 @@
         </div>
 
         <img class="butterfly" src="Images/butter.png"/>
-        <div class="form">
+
+        <div class="formDiv">
             <p class="make-order">Make a Reservation:</p>
             <form action="" method="get">
-                <ul>
-                    <li>
-                        <label for="firstName">First Name:</label>
-                        <input id="firstName" size="20" style="width: 100px; "/>
-                        <label for="lastName">Last Name:</label>
-                        <input id="lastName" style="width: 100px;"/>
-                        <label for="phone">Phone:</label>
-                        <input id="phone" type="number" style="width: 130px;"/>
-                        <label for="email">Email:</label>
-                        <input id="email" />
+                <ul class="formColumns">
+                    <li class="customerDetails">
+                        <ul>
+                            <li>
+                                <label for="firstName">First Name:</label>
+                                <input id="firstName" size="20" style="max-width: 100px; "/>
+                            </li>
+                            <li>
+                                <label for="lastName">Last Name:</label>
+                                <input id="lastName" style="max-width: 100px;"/>
+                            </li>
+                            <li>
+                                <label for="phone">Phone:</label>
+                                <input id="phone" type="number" style="max-width: 130px;"/>
+                            </li>
+                            <li>
+                                <label for="email">Email:</label>
+                                <input id="email" />
+                            </li>
+                            <li>
+                                <label for="product">The requested product:</label>
+                                <input id="product" style="max-width: 270px;"/>
+                            </li>
+                            <li>
+                                <label for="amount">Amount:</label>
+                                <input id="amount" type="number" style="max-width: 30px;"/>
+                            </li>
+                            <li>
+                                <label for="gift">Wrap for a gift?</label>
+                                <input id="gift" type="checkbox"/>
+                            </li>
+                            <li>
+                                <label for="address">Shipping address:</label>
+                                <input id="address" style="max-width: 220px;"/>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <label for="product">The requested product:</label>
-                        <input id="product" style="width: 270px;"/>
-                        <label for="amount">Amount:</label>
-                        <input id="amount" type="number" style="width: 30px;"/>
-                        <label for="gift">Wrap for a gift?</label>
-                        <input id="gift" type="checkbox"/>
-                    </li>
-                    <li>
-                        <label for="address">Shipping address:</label>
-                        <input id="address" style="width: 220px;"/>
-                    </li>
-                </ul>
-                <ul class="pay">
-                    <li>
-                        <label class="payDetails">Payment details</label>
-                    </li>
-                    <li>
-                        <label for="cardNum">Credit card number:</label>
-                        <input id="cardNum" type="number" style="width: 150px;"/>
-                        <label for="id">ID (of the card owner):</label>
-                        <input id="id" type="number" maxlength="9" style="width: 150px;"/>
-                    </li>
-                    <li>
-                        <label for="validity">Card validity:</label>
+                
+                    <li class="cardDetails">
+                        <ul>
+                            <li>
+                                <label class="payDetails">Payment details</label>
+                            </li>
+                            <li>
+                                <label for="cardNum">Credit card number:</label>
+                                <input id="cardNum" type="number" style="max-width: 150px;"/>
+                            </li>
+                            <li>
+                                <label for="id">ID (of the card owner):</label>
+                                <input id="id" type="number" maxlength="9" style="max-width: 150px;"/>
+                            </li>
+                            <li>
+                                <label for="validity">Card validity:</label>
                         <select id="validity" name="month">
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -160,13 +178,18 @@
                             <option value="2032">2032</option>
                             <option value="2033">2033</option>
                         </select>
-                        <label for="cvv">CVV</label>
-                        <input id="cvv" type="number" maxlength="3" style="width: 40px;"/>
+                            </li>
+                            <li>
+                                <label for="cvv">CVV</label>
+                                <input id="cvv" type="number" maxlength="3" style="max-width: 40px;"/>        
+                            </li>
+                        </ul>
                     </li>
                 </ul>
                 <input type="submit" value="Approve Order" class="button-send"/>
             </form>
         </div>
+
         <img class="butterfly" src="Images/butter.png"/>
 
         <p>
@@ -181,27 +204,25 @@
 
 
         <hr>
-        <footer>
+        <footer id="foot">
             <!-- Contact information -->
             <div>
                 <p>
                     <h5>Contact Information:<br></h5>
                 </p>
-                <ul>
-                    <li>Email us here at <a href="mailto:shira.ka017@gmail.com">shira.ka017@gmail.com</a></li>
-                    <li>Call us at <a href="tel:050-6844776">050-6844776</a></li>
-                </ul>
-            </div>
-            <!-- The footer has the author of the webpage -->
-            <div class="footer">
-                <p>
+                <p class="fotterText">
+                    Email us here at <a href="mailto:shira.ka017@gmail.com">shira.ka017@gmail.com</a>
+                </p>
+                <p class="fotterText">
+                    Call us at <a href="tel:050-6844776">050-6844776</a> 
+               </p>
+               <br>
+                <p class="fotterText">
                     -Website created by GOLDEN HOME-
                 </p>
             </div>
         </footer>
-    </div>
-    <!-- JavaScript -->
-    <script src="/JavaScript/store-js.js"></script>
-</body>
-
-</html>
+     </div>
+ </body>
+ 
+ </html>

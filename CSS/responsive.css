@@ -1,5 +1,8 @@
 
 @media screen and (max-width: 900px){ 
+    body{
+        font-size:20px ; 
+    }
     .card {
         width: 40%; /* Adjust the width for smaller screens */
     }
@@ -12,7 +15,10 @@
 }
 
 
-@media screen and (max-width: 500px){ 
+@media screen and (max-width: 600px){ 
+    body{
+        font-size: 13px;
+    }
     .card {
         width: 75%; /* Adjust the width for smaller screens */
     }
@@ -39,5 +45,14 @@
     .shipping-table-head {
         border-bottom-style: solid; /* Change border style for table header on smaller screens */
     }
+    
+    nav {
+        flex-direction: column-reverse;
+    }
+    nav.top-nav ul {
+        text-align: center;
+    }
+
+
 
 }

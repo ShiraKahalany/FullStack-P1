@@ -1,40 +1,6 @@
 /********** Header **********/
 .header-image {
-    height: 150px;
-}
-
-/********** Sections **********/
-.row2 {
-    padding: 50px 0;
-    color: black;
-}
-
-.par-text p{
-    font-size: 1.2em; /* Adjust the font size as needed */
-    line-height: 2.6; /* Optionally adjust the line height for better readability */
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-/********** First section **********/
-#first-section .col {
-    padding: 0 100px;
-}
-
-/********** Second section **********/
-#second-section {
-    background-color: rgba(255, 255, 255, 0.589);
-}
-
-#second-section img {
-    width: 300px;
-    float: left;
-    filter: sepia(60%);
-}
-
-/********** Third section **********/
-#third-section img {
-    float: right;
-    filter: sepia(30%);
+    height: 9em;
 }
 
 video{
@@ -48,7 +14,3 @@ video{
     height: 200px;
     margin-top: 10%;
 }
-
-/* iframe{
-    width:40%;
-} */
