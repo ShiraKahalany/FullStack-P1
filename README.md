@@ -28,17 +28,6 @@ Welcome to the Full Stack Web Development project. This project encompasses vari
 
 - responsive.css: Implements responsive design for smaller screens.
 
-## Running the Project
-1. Clone the repository to your local machine.
-   git clone https://github.com/your-username/your-repository.git
-2. Open the project directory in your preferred code editor.
-3. To view the web pages, open the HTML files in a web browser.
 
-## Collaboration and Contributions
-If you would like to contribute to the project, please follow these guidelines:
-
-- Fork the repository and create a new branch for your contributions.
-- Ensure that your code follows consistent coding standards.
-- Submit a pull request, clearly explaining the changes and improvements made.
 
 
