@@ -4,8 +4,6 @@
 Welcome to the Full Stack Web Development project. This project encompasses various pages to create a seamless user experience. The primary pages include "home," "catalog," "shipping & orders," and "about us." Additionally, two essential components, "header" and "footer," have been implemented to prevent duplicated code and ensure consistency across pages.
 
 ## File Structure
-## File Structure
-
 - home.html: Represents the home page of the website.
   - home.css: Corresponding stylesheet for the home page.
 
