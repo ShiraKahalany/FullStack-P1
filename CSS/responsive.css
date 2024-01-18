@@ -65,4 +65,17 @@
         text-align: center;
     }
 
+    
+    video{
+        width:  250px;
+        height: 490px;
+    }
+
+    .iframi {
+        width: 240px;
+        height: 90px;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
 }
